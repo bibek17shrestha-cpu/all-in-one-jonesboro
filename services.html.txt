@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - All In One Jonesboro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <h1>All In One</h1>
+                        <p class="tagline">Easy and trustworthy service to help</p>
+                    </div>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html" class="active">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Services</h1>
+            <p>Five professional services to meet all your needs</p>
+        </div>
+    </section>
+
+    <section class="services-section">
+        <div class="container">
+            <div class="service-detail" id="car-detailing">
+                <div class="service-header">
+                    <h2>🚗 Mobile Car Detailing</h2>
+                </div>
+                <div class="service-body">
+                    <div class="service-description">
+                        <h3>Professional Car Detailing at Your Location</h3>
+                        <p>Our mobile car detailing service brings professional shine and cleanliness directly to your home or workplace.</p>
+                        <h4>What's Included:</h4>
+                        <ul class="service-features">
+                            <li>Exterior wash and wax</li>
+                            <li>Interior vacuuming and cleaning</li>
+                            <li>Window cleaning</li>
+                            <li>Tire shine</li>
+                            <li>Air freshening</li>
+                        </ul>
+                    </div>
+                    <div class="service-pricing">
+                        <h3>Pricing</h3>
+                        <div class="pricing-info">
+                            <p><strong>Starting Price:</strong></p>
+                            <p class="price">$50 per car</p>
+                        </div>
+                        <p class="pricing-note">Prices may vary based on vehicle size and condition.</p>
+                        <a href="contact.html" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-detail" id="pressure-washing">
+                <div class="service-header">
+                    <h2>💧 Pressure Washing</h2>
+                </div>
+                <div class="service-body">
+                    <div class="service-description">
+                        <h3>Professional Pressure Washing</h3>
+                        <p>We provide thorough pressure washing services for residential and commercial properties.</p>
+                        <h4>Services Include:</h4>
+                        <ul class="service-features">
+                            <li>Driveway and sidewalk cleaning</li>
+                            <li>Patio and deck washing</li>
+                            <li>Building exterior cleaning</li>
+                            <li>Fence and railing cleaning</li>
+                            <li>Commercial property washing</li>
+                        </ul>
+                    </div>
+                    <div class="service-pricing">
+                        <h3>Pricing</h3>
+                        <div class="pricing-info">
+                            <p><strong>Residential:</strong></p>
+                            <p class="price">$80–$250</p>
+                            <p><strong>Commercial:</strong></p>
+                            <p class="price">$500+</p>
+                        </div>
+                        <p class="pricing-note">Free on-site estimates available.</p>
+                        <a href="contact.html" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-detail" id="organization">
+                <div class="service-header">
+                    <h2>📦 Home & Office Organization</h2>
+                </div>
+                <div class="service-body">
+                    <div class="service-description">
+                        <h3>Transform Your Space with Professional Organization</h3>
+                        <p>Our professional organizers help you declutter and organize your living or working space.</p>
+                        <h4>What We Organize:</h4>
+                        <ul class="service-features">
+                            <li>Closets and bedrooms</li>
+                            <li>Kitchens and pantries</li>
+                            <li>Home offices and studies</li>
+                            <li>Living rooms and garages</li>
+                            <li>Entire commercial offices</li>
+                        </ul>
+                    </div>
+                    <div class="service-pricing">
+                        <h3>Pricing</h3>
+                        <div class="pricing-info">
+                            <p><strong>Hourly Rate:</strong></p>
+                            <p class="price">$50–$100/hr</p>
+                        </div>
+                        <p class="pricing-note">Minimum 2-hour service. Contact us for estimates.</p>
+                        <a href="contact.html" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-detail" id="junk-removal">
+                <div class="service-header">
+                    <h2>🗑️ Junk Removal</h2>
+                </div>
+                <div class="service-body">
+                    <div class="service-description">
+                        <h3>Fast & Reliable Junk Removal</h3>
+                        <p>We'll remove any unwanted items from your property quickly and responsibly.</p>
+                        <h4>What We Remove:</h4>
+                        <ul class="service-features">
+                            <li>Old furniture and mattresses</li>
+                            <li>Appliances and electronics</li>
+                            <li>Construction debris</li>
+                            <li>Yard waste and landscaping debris</li>
+                            <li>Miscellaneous household items</li>
+                        </ul>
+                    </div>
+                    <div class="service-pricing">
+                        <h3>Pricing</h3>
+                        <div class="pricing-info">
+                            <p><strong>Per Job:</strong></p>
+                            <p class="price">$150–$600</p>
+                        </div>
+                        <p class="pricing-note">Call for a free quote or on-site estimate.</p>
+                        <a href="contact.html" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-detail" id="pet-grooming">
+                <div class="service-header">
+                    <h2>🐾 Mobile Pet Grooming</h2>
+                </div>
+                <div class="service-body">
+                    <div class="service-description">
+                        <h3>Professional Grooming for Your Beloved Pets</h3>
+                        <p>Our experienced groomers provide full grooming services using gentle, pet-friendly techniques.</p>
+                        <h4>Grooming Services Include:</h4>
+                        <ul class="service-features">
+                            <li>Full bath and wash</li>
+                            <li>Hair trimming and styling</li>
+                            <li>Nail clipping and filing</li>
+                            <li>Ear cleaning</li>
+                            <li>Teeth brushing</li>
+                        </ul>
+                    </div>
+                    <div class="service-pricing">
+                        <h3>Pricing</h3>
+                        <div class="pricing-info">
+                            <p><strong>Per Pet:</strong></p>
+                            <p class="price">$40–$100</p>
+                        </div>
+                        <p class="pricing-note">First-time clients get a FREE consultation!</p>
+                        <a href="contact.html" class="btn btn-primary">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Book Your Service?</h2>
+            <p>Contact us today to schedule or get a free quote.</p>
+            <a href="contact.html" class="btn btn-primary">Contact Us Now</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>All In One – Jonesboro</h3>
+                    <p>Easy and trustworthy service to help.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p><strong>Phone:</strong> <a href="tel:+14709999999">(470) 999-9999</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:info@allinonejonesboro.com">info@allinonejonesboro.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 All In One – Jonesboro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

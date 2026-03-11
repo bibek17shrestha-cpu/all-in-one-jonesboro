@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - All In One Jonesboro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <h1>All In One</h1>
+                        <p class="tagline">Easy and trustworthy service to help</p>
+                    </div>
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html" class="active">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>About Us</h1>
+            <p>Your trusted local service partner in Jonesboro</p>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2>Our Mission</h2>
+                <p>At All In One – Jonesboro, our mission is simple: <strong>Easy and trustworthy service to help</strong>. We believe that everyone deserves access to professional, reliable services.</p>
+            </div>
+
+            <div class="about-content">
+                <h2>Why We Started</h2>
+                <p>We saw a gap in the Jonesboro community—people needed reliable, professional services without having to search multiple companies. We decided to expand our expertise to offer five services that cover most of your home and vehicle maintenance needs.</p>
+            </div>
+
+            <div class="about-content">
+                <h2>Our Core Values</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <h3>🎯 Reliability</h3>
+                        <p>We show up on time, every time.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>💎 Quality</h3>
+                        <p>We use professional-grade products and proven techniques.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>💰 Transparency</h3>
+                        <p>No hidden fees. Upfront pricing and honest communication.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>🤝 Community</h3>
+                        <p>We're part of the Jonesboro community.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-content promise-section">
+                <h2>Our Promise to You</h2>
+                <div class="promise-box">
+                    <ul class="promise-list">
+                        <li>✓ Professional, high-quality work on every job</li>
+                        <li>✓ On-time service and reliable scheduling</li>
+                        <li>✓ Fair, transparent pricing with no surprises</li>
+                        <li>✓ Friendly, respectful customer service</li>
+                        <li>✓ Full commitment to your satisfaction</li>
+                        <li>✓ Local, community-focused service you can trust</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Experience Our Service?</h2>
+            <p>Join hundreds of satisfied customers in Jonesboro.</p>
+            <a href="contact.html" class="btn btn-primary">Contact Us Today</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>All In One – Jonesboro</h3>
+                    <p>Easy and trustworthy service to help.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p><strong>Phone:</strong> <a href="tel:+14709999999">(470) 999-9999</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:info@allinonejonesboro.com">info@allinonejonesboro.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 All In One – Jonesboro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
