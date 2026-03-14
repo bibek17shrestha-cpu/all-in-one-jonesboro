@@ -15,6 +15,56 @@ body {
     background-color: #fff;
 }
 
+body{
+  font-family: Arial, sans-serif;
+  margin:0;
+  background:#f5f7fb;
+}
+
+/* HERO SECTION */
+
+.hero{
+  height:90vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background:linear-gradient(135deg,#0077ff,#00c6ff);
+  color:white;
+}
+
+.hero h1{
+  font-size:48px;
+}
+
+.hero p{
+  font-size:20px;
+}
+
+.btn{
+  background:white;
+  color:#0077ff;
+  padding:12px 25px;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:bold;
+}
+
+/* SERVICES */
+
+.services{
+  padding:60px;
+  text-align:center;
+}
+
+.service-box{
+  background:white;
+  padding:25px;
+  margin:20px;
+  border-radius:10px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
 ul, ol {
     list-style: none;
 }
