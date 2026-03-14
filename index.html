@@ -5,11 +5,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>All In One Jonesboro | Local Services</title>
+<title>All In One Jonesboro | Premium Local Services</title>
 
-<meta name="description" content="All In One Jonesboro provides mobile car detailing, pressure washing, junk removal, pet grooming and more in Jonesboro Arkansas.">
+<meta name="description" content="All In One Jonesboro provides mobile car detailing, pressure washing, junk removal, home organization, and pet grooming services in Jonesboro Arkansas.">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
@@ -31,129 +31,158 @@ background:#f4f6f9;
 color:#333;
 }
 
-/ HEADER /
-
-header{
-background:#0077ff;
-color:white;
-text-align:center;
-padding:30px;
-}
-
-header h1{
-font-size:2em;
-}
-
 / NAVBAR /
 
 nav{
-background:#0056b3;
 display:flex;
-justify-content:center;
-gap:30px;
-padding:15px;
+justify-content:space-between;
+align-items:center;
+padding:18px 60px;
+background:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
 position:sticky;
 top:0;
+z-index:1000;
+}
+
+.logo{
+font-size:20px;
+font-weight:700;
+color:#0077ff;
+}
+
+nav ul{
+display:flex;
+gap:25px;
+list-style:none;
 }
 
 nav a{
-color:white;
-font-weight:600;
 text-decoration:none;
+font-weight:600;
+color:#333;
 }
 
 nav a:hover{
-color:#ffd84d;
+color:#0077ff;
 }
 
 / HERO /
 
 .hero{
-height:420px;
-background:url('https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat;
+height:90vh;
 display:flex;
 align-items:center;
 justify-content:center;
 text-align:center;
 color:white;
+background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+url('https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62?auto=format&fit=crop&w=1400&q=80');
+background-size:cover;
+background-position:center;
 }
 
-.hero h2{
-font-size:2.5em;
-margin-bottom:10px;
-text-shadow:2px 2px 6px rgba(0,0,0,0.6);
+.hero h1{
+font-size:48px;
+margin-bottom:15px;
 }
 
 .hero p{
-font-size:1.2em;
-margin-bottom:20px;
-text-shadow:2px 2px 6px rgba(0,0,0,0.6);
+font-size:20px;
+margin-bottom:30px;
 }
 
 .btn{
-background:#ffd84d;
-color:#0077ff;
-padding:12px 25px;
+background:#0077ff;
+color:white;
+padding:14px 28px;
 border-radius:6px;
-font-weight:600;
 text-decoration:none;
+font-weight:600;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#0056c9;
 }
 
 / SERVICES /
 
 .services{
-padding:70px 20px;
+padding:80px 20px;
 text-align:center;
 }
 
 .services h2{
-color:#0077ff;
+font-size:32px;
 margin-bottom:40px;
+color:#0077ff;
 }
 
 .grid{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:25px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+max-width:1100px;
+margin:auto;
 }
 
 .card{
 background:white;
-width:260px;
-padding:25px;
+padding:30px;
 border-radius:12px;
-box-shadow:0 4px 15px rgba(0,0,0,0.1);
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
 transition:0.3s;
 }
 
 .card:hover{
 transform:translateY(-10px);
-box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
 
 .card i{
-font-size:35px;
+font-size:40px;
 color:#0077ff;
 margin-bottom:15px;
 }
 
-.card h3{
-margin-bottom:10px;
+/ WHY US /
+
+.why{
+background:#0077ff;
+color:white;
+padding:80px 20px;
+text-align:center;
 }
 
-/ ABOUT /
+.why h2{
+margin-bottom:30px;
+font-size:30px;
+}
 
-.about{
-background:#e9ecef;
-padding:60px 20px;
+.why-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:25px;
+max-width:900px;
+margin:auto;
+}
+
+/ CTA /
+
+.cta{
+padding:80px 20px;
 text-align:center;
+background:#f1f4f9;
+}
+
+.cta h2{
+margin-bottom:20px;
 }
 
 / CONTACT /
 
 .contact{
-padding:70px 20px;
+padding:80px 20px;
 text-align:center;
 }
 
@@ -163,22 +192,22 @@ margin:auto;
 background:white;
 padding:30px;
 border-radius:10px;
-box-shadow:0 4px 15px rgba(0,0,0,0.1);
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
 }
 
-form input, form textarea{
+form input,form textarea{
 width:100%;
 padding:12px;
 margin:10px 0;
-border:1px solid #ccc;
 border-radius:5px;
+border:1px solid #ccc;
 }
 
 form button{
 background:#0077ff;
 color:white;
-padding:12px 20px;
 border:none;
+padding:12px 20px;
 border-radius:6px;
 font-weight:600;
 cursor:pointer;
@@ -187,23 +216,24 @@ cursor:pointer;
 / FOOTER /
 
 footer{
-background:#343a40;
+background:#111;
 color:white;
 text-align:center;
-padding:25px;
+padding:30px;
+margin-top:50px;
 }
 
 / MOBILE */
 
 @media(max-width:768px){
 
-.grid{
+nav{
 flex-direction:column;
-align-items:center;
+gap:15px;
 }
 
-.hero h2{
-font-size:1.8em;
+.hero h1{
+font-size:32px;
 }
 
 }
@@ -214,25 +244,26 @@ font-size:1.8em;
 
 <body>
 
-<header>
-<h1>All In One – Jonesboro, AR</h1>
-<p>Your trusted local service partner</p>
-</header>
-
 <nav>
-<a href="#">Home</a>
-<a href="#services">Services</a>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
+
+<div class="logo">All In One Jonesboro</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#why">Why Us</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
 </nav>
 
 <section class="hero">
 
 <div>
 
-<h2>Reliable Services Made Simple</h2>
+<h1>Your All-In-One Local Service Partner</h1>
 
-<p>Helping Jonesboro residents with everyday services.</p>
+<p>Reliable services for homes and businesses in Jonesboro, Arkansas.</p>
 
 <a class="btn" href="#services">Explore Services</a>
 
@@ -249,45 +280,67 @@ font-size:1.8em;
 <div class="card">
 <i class="fas fa-car"></i>
 <h3>Mobile Car Detailing</h3>
-<p>Professional car cleaning at your location.</p>
+<p>Professional cleaning right at your home.</p>
 </div>
 
 <div class="card">
 <i class="fas fa-water"></i>
 <h3>Pressure Washing</h3>
-<p>Driveways, fences and homes cleaned.</p>
-</div>
-
-<div class="card">
-<i class="fas fa-box-open"></i>
-<h3>Home Organization</h3>
-<p>Declutter and organize your space.</p>
+<p>Driveways, patios, fences and homes cleaned.</p>
 </div>
 
 <div class="card">
 <i class="fas fa-trash"></i>
 <h3>Junk Removal</h3>
-<p>Fast eco-friendly junk pickup.</p>
+<p>Quick and eco-friendly junk removal.</p>
+</div>
+
+<div class="card">
+<i class="fas fa-box-open"></i>
+<h3>Home Organization</h3>
+<p>Declutter and organize your living space.</p>
 </div>
 
 <div class="card">
 <i class="fas fa-paw"></i>
 <h3>Mobile Pet Grooming</h3>
-<p>Professional grooming at home.</p>
+<p>Convenient grooming services for your pets.</p>
 </div>
 
 </div>
 
 </section>
 
-<section id="about" class="about">
+<section id="why" class="why">
 
-<h2>About Us</h2>
+<h2>Why Choose Us</h2>
 
-<p>
-We provide reliable services to help the community of Jonesboro, Arkansas.
-Our mission is to make everyday tasks easier for residents.
-</p>
+<div class="why-grid">
+
+<div>
+<h3>Reliable</h3>
+<p>Trusted local service provider.</p>
+</div>
+
+<div>
+<h3>Affordable</h3>
+<p>Fair prices for every service.</p>
+</div>
+
+<div>
+<h3>Fast Service</h3>
+<p>Quick response and scheduling.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="cta">
+
+<h2>Ready to Book a Service?</h2>
+
+<a class="btn" href="#contact">Contact Us Today</a>
 
 </section>
 
@@ -305,7 +358,7 @@ Our mission is to make everyday tasks easier for residents.
 
 <input type="email" name="email" placeholder="Your Email" required>
 
-<textarea name="message" placeholder="What service do you need?" rows="4"></textarea>
+<textarea name="message" rows="4" placeholder="Tell us what service you need"></textarea>
 
 <button type="submit">Request Service</button>
 
@@ -317,7 +370,7 @@ Our mission is to make everyday tasks easier for residents.
 
 <p>Serving Jonesboro, Arkansas</p>
 
-<p>© 2026 All In One – Jonesboro</p>
+<p>© 2026 All In One Jonesboro</p>
 
 </footer>
 
