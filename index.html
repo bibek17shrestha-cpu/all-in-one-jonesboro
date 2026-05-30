@@ -1,474 +1,180 @@
-<!DOCTYPE html>
-<html lang="en">
-<link rel="icon" href="/favicon.png" type="image/png">
-<link rel="shortcut icon" href="/favicon.ico">
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>All In One Jonesboro</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-<style>
-
-{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Poppins,sans-serif;
-}
-
-body{
-background:#f4f6f9;
-color:#333;
-line-height:1.6;
-}
-
-html{
-scroll-behavior:smooth;
-}
-
-/ NAVBAR /
-
-nav{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px 8%;
-background:white;
-box-shadow:0 4px 15px rgba(0,0,0,0.1);
-position:sticky;
-top:0;
-z-index:1000;
-}
-
-.logo{
-font-size:22px;
-font-weight:700;
-color:#0077ff;
-}
-
-nav ul{
-display:flex;
-list-style:none;
-gap:30px;
-}
-
-nav a{
-text-decoration:none;
-color:#333;
-font-weight:600;
-}
-
-/ HERO /
-
-.hero{
-
-height:90vh;
-
-display:flex;
-
-align-items:center;
-
-justify-content:center;
-
-text-align:center;
-
-color:white;
-
-background:
-linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
-url("https://images.unsplash.com/photo-1600585154340-be6161a56a0c");
-
-background-size:cover;
-background-position:center;
-
-}
-
-.hero h1{
-font-size:50px;
-margin-bottom:15px;
-}
-
-.hero p{
-font-size:20px;
-margin-bottom:30px;
-}
-
-.btn{
-
-background:#0077ff;
-
-padding:14px 30px;
-
-border-radius:8px;
-
-color:white;
-
-text-decoration:none;
-
-font-weight:600;
-
-}
-
-/ SERVICES /
-
-.services{
-
-padding:80px 8%;
-
-text-align:center;
-
-}
-
-.services h2{
-font-size:35px;
-margin-bottom:40px;
-}
-
-.grid{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-
-gap:30px;
-
-max-width:1100px;
-
-margin:auto;
-
-}
-
-.card{
-
-background:white;
-
-border-radius:12px;
-
-overflow:hidden;
-
-box-shadow:0 10px 25px rgba(0,0,0,0.1);
-
-transition:.3s;
-
-}
-
-.card:hover{
-transform:translateY(-10px);
-}
-
-.card img{
-width:100%;
-height:180px;
-object-fit:cover;
-}
-
-.card-content{
-padding:20px;
-}
-
-/ WHY /
-
-.why{
-
-background:#0077ff;
-
-color:white;
-
-padding:80px 8%;
-
-text-align:center;
-
-}
-
-.why-grid{
-
-display:grid;
-
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-
-gap:30px;
-
-margin-top:40px;
-
-}
-
-/ ABOUT /
-
-.about{
-
-padding:80px 8%;
-
-text-align:center;
-
-background:#f1f4f9;
-
-}
-
-.about p{
-max-width:700px;
-margin:auto;
-font-size:18px;
-}
-
-/ CONTACT /
-
-.contact{
-
-padding:80px 8%;
-
-text-align:center;
-
-}
-
-form{
-
-max-width:500px;
-
-margin:auto;
-
-background:white;
-
-padding:30px;
-
-border-radius:10px;
-
-box-shadow:0 8px 25px rgba(0,0,0,0.1);
-
-}
-
-form input,form textarea{
-
-width:100%;
-
-padding:12px;
-
-margin:10px 0;
-
-border-radius:6px;
-
-border:1px solid #ccc;
-
-}
-
-form button{
-
-background:#0077ff;
-
-color:white;
-
-border:none;
-
-padding:12px 20px;
-
-border-radius:6px;
-
-font-weight:600;
-
-cursor:pointer;
-
-}
-
-/ CALL BUTTON /
-
-.call{
-
-position:fixed;
-
-bottom:20px;
-
-right:20px;
-
-background:#28a745;
-
-color:white;
-
-padding:14px 20px;
-
-border-radius:50px;
-
-text-decoration:none;
-
-font-weight:600;
-
-box-shadow:0 6px 15px rgba(0,0,0,.3);
-
-}
-
-/ FOOTER */
-
-footer{
-
-background:#111;
-
-color:white;
-
-text-align:center;
-
-padding:30px;
-
-margin-top:40px;
-
-}
-
-</style>
-
-</head>
-
-<body>
-
-<nav>
-
-<div class="logo">All In One Jonesboro</div>
-
-<ul>
-
-<li><a href="#home">Home</a></li>
-
-<li><a href="#services">Services</a></li>
-
-<li><a href="#about">About</a></li>
-
-<li><a href="#contact">Contact</a></li>
-
-</ul>
-
-</nav>
-
-<section id="home" class="hero">
-
-<div>
-
-<h1>All-In-One Local Services</h1>
-
-<p>Helping Jonesboro residents with reliable everyday services.</p>
-
-<a class="btn" href="#services">Explore Services</a>
-
-</div>
-
-</section>
-
-<section id="services" class="services">
-
-<h2>Our Services</h2>
-
-<div class="grid">
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1607863680198-23d4b2565df0">
-<div class="card-content">
-<h3>Mobile Car Detailing</h3>
-<p>Professional car cleaning at your home.</p>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952">
-<div class="card-content">
-<h3>Pressure Washing</h3>
-<p>Driveways, patios and homes cleaned.</p>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1604187351574-c75ca79f5807">
-<div class="card-content">
-<h3>Junk Removal</h3>
-<p>Fast eco-friendly junk pickup.</p>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1556911220-bff31c812dba">
-<div class="card-content">
-<h3>Home Organization</h3>
-<p>Declutter and organize your home.</p>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7">
-<div class="card-content">
-<h3>Mobile Pet Grooming</h3>
-<p>Professional pet grooming at home.</p>
-</div>
-</div>
-
-</div>
-
-</section>
-
-<section class="why">
-
-<h2>Why Choose Us</h2>
-
-<div class="why-grid">
-
-<div>
-<h3>Reliable</h3>
-<p>Trusted service in Jonesboro.</p>
-</div>
-
-<div>
-<h3>Affordable</h3>
-<p>Competitive prices.</p>
-</div>
-
-<div>
-<h3>Fast Service</h3>
-<p>Quick response and scheduling.</p>
-</div>
-
-</div>
-
-</section>
-
-<section id="about" class="about">
-
-<h2>About Us</h2>
-
-<p>
-
-All In One Jonesboro provides car detailing, pressure washing,
-junk removal, home organization and pet grooming services to
-residents in Jonesboro Arkansas.
-
-</p>
-
-</section>
-
-<section id="contact" class="contact">
-
-<h2>Request Service</h2>
-
-<form action="https://formspree.io/f/xvzwaobo" method="POST">
-
-<input type="text" name="name" placeholder="Name" required>
-
-<input type="email" name="email" placeholder="Email" required>
-
-<input type="tel" name="phone" placeholder="Phone Number" required>
-
-<textarea name="message" rows="4" placeholder="What service do you need?"></textarea>
-
-<button type="submit">Send Request</button>
-
-</form>
-
-</section>
-
-<a class="call" href="tel:8709382574">📞 Call Now</a>
-
-<footer>
-
-<p>Serving Jonesboro Arkansas</p>
-
-<p>© 2026 All In One Jonesboro</p>
-
-</footer>
-
-</body>
-</html>
+All In One Jonesboro 📞 (870) 938-2574
+
+
+
+
+SERVING JONESBORO, ARKANSAS
+Your Home Deserves The Best.
+Five premium services. One phone call. We come to you — so you can spend your time doing what matters most.
+Book a Service → 📞 Call Now
+🚗
+CAR DETAILING
+💦
+PRESSURE WASHING
+🗑️
+JUNK REMOVAL
+📦
+HOME ORGANIZATION
+🐾
+PET GROOMING
+✦
+JONESBORO AR
+🚗
+CAR DETAILING
+💦
+PRESSURE WASHING
+🗑️
+JUNK REMOVAL
+📦
+HOME ORGANIZATION
+🐾
+PET GROOMING
+✦
+JONESBORO AR
+WHAT WE DO
+Five Services,
+All Premium.
+Every service is delivered by professionals who care — right at your front door.
+🚗
+Mobile Car Detailing
+Showroom-quality cleaning at your home or office. Interior, exterior, and everything in between — we bring the full detail experience to your driveway.
+Interior
+Exterior
+Mobile
+→
+⭐ MOST POPULAR
+💦
+Pressure Washing
+Watch years of grime disappear in minutes. We handle driveways, patios, fencing, siding, and more — making your property look brand new.
+Driveways
+Patios
+Siding
+Fences
+→
+02
+🗑️
+Junk Removal
+Fast, eco-conscious hauling. Old furniture, debris, appliances — gone the same day.
+Same Day
+Eco-Friendly
+→
+📦
+Home Organization
+Transform chaotic spaces into calm, functional rooms you'll love coming home to.
+Declutter
+Systems
+→
+🐾
+Mobile Pet Grooming
+Professional grooming for your furry family members — in our mobile salon at your door.
+Dogs
+Cats
+Mobile
+→
+5+
+SERVICES OFFERED
+AR
+LOCALLY OWNED
+⚡
+FAST RESPONSE
+100%
+SATISFACTION FOCUS
+📍
+JONESBORO, AR
+🤝
+Local
+OWNED & OPERATED
+⚡
+Fast
+SAME-DAY AVAILABLE
+💰
+Fair
+TRANSPARENT PRICING
+🌿
+Green
+ECO-FRIENDLY PRACTICES
+"We built All In One Jonesboro because our neighbors deserve reliable, affordable services without the runaround. One call. Done right."
+OUR STORY
+Built for
+Jonesboro.
+We started All In One Jonesboro with a simple mission: make life easier for our neighbors. Instead of calling five different vendors, you call us — and we handle it all.
+Every service we offer is performed by dedicated professionals who take pride in their craft. We're not a faceless corporation — we're your community, showing up when you need us.
+Get a Free Quote →
+HOW IT WORKS
+Simple as 1, 2, 3
+01
+Choose Your Service
+Pick from our five services. Or call us and we'll help figure out exactly what you need.
+02
+Book in Seconds
+Fill out the quick form or call directly. We'll confirm your appointment fast — often same day.
+03
+We Come to You
+Our team arrives at your home fully equipped and ready. Zero hassle on your end.
+04
+Sit Back & Enjoy
+Relax while we do the work. We leave when the job is done right and you're happy.
+REVIEWS
+What Jonesboro
+Is Saying
+★★★★★
+"Their car detailing is unreal. My truck looked brand new after they were done. Couldn't believe the difference. Will absolutely use them again."
+MJ
+Marcus J.
+Jonesboro, AR
+★★★★★
+"Had them pressure wash my driveway and back patio. Showed up on time, worked fast, and the results were incredible. Pricing was very fair."
+SK
+Sarah K.
+Jonesboro, AR
+★★★★★
+"The mobile pet grooming was so convenient for my dogs. They were nervous at first but the groomer was so patient and gentle. We're regulars now!"
+TR
+Tamara R.
+Jonesboro, AR
+GET IN TOUCH
+Let's Get
+To Work.
+Ready to transform your home, car, or yard? Reach out and we'll get back to you within a few hours to confirm your booking.
+📞
+CALL OR TEXT
+(870) 938-2574
+📍
+SERVICE AREA
+Jonesboro, AR & Surrounding
+🕐
+RESPONSE TIME
+Usually within 2–4 hours
+Book Your Service
+Quick quote — no commitment, no spam.
+FIRST NAME
+
+LAST NAME
+
+PHONE
+
+EMAIL
+
+SERVICE
+          Select a service...
+          Mobile Car Detailing
+          Pressure Washing
+          Junk Removal
+          Home Organization
+          Mobile Pet Grooming
+          Multiple Services
+        
+DETAILS (OPTIONAL)
+Send Request — We'll Be in Touch ✓
+
+All In One Jonesboro
+© 2026 All In One Jonesboro · Jonesboro, Arkansas
+Services
+About
+Contact
+(870) 938-2574
+
+📞 Call Now
